@@ -1,0 +1,11 @@
+{
+  "name": "ace-it-up-workspace",
+  "version": "1.0.0",
+  "description": "Ace It Up Placement Readiness workspace scripts",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "frontend": "npm run dev --prefix client",
+    "backend": "npm start --prefix server",
+    "dev": "npx concurrently \"npm run dev --prefix client\" \"npm start --prefix server\""
+  }
+}
