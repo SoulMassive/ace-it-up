@@ -45,34 +45,27 @@ const Footer = () => {
               <li><Link to="/services" className="hover:text-gold hover:pl-1 transition-all">Resume Building</Link></li>
               <li><Link to="/services" className="hover:text-gold hover:pl-1 transition-all">Soft Skills & Communication</Link></li>
               <li><Link to="/services" className="hover:text-gold hover:pl-1 transition-all">Interview Preparation</Link></li>
-              <li><Link to="/services" className="hover:text-gold hover:pl-1 transition-all">Mock Interview (Premium)</Link></li>
-              <li><Link to="/services" className="hover:text-gold hover:pl-1 transition-all">Free Workshop Demo</Link></li>
             </ul>
           </div>
-
+ 
           {/* Column 3: For Colleges */}
           <div>
             <h3 className="text-xs font-semibold text-white tracking-wider uppercase mb-6">For Colleges</h3>
             <ul className="space-y-3.5 text-sm font-light">
-              <li><a href="#partner" className="hover:text-gold hover:pl-1 transition-all">College Partnerships</a></li>
-              <li><a href="#partner" className="hover:text-gold hover:pl-1 transition-all">Campus Workshops</a></li>
-              <li><a href="#partner" className="hover:text-gold hover:pl-1 transition-all">Semester Programs</a></li>
-              <li><a href="#partner" className="hover:text-gold hover:pl-1 transition-all">Placement Bootcamps</a></li>
-              <li><a href="#partner" className="hover:text-gold hover:pl-1 transition-all">Request a Demo</a></li>
-              <li><a href="#partner" className="hover:text-gold hover:pl-1 transition-all">MoU Information</a></li>
+              <li><Link to="/contact" className="hover:text-gold hover:pl-1 transition-all">College Partnerships</Link></li>
+              <li><Link to="/contact" className="hover:text-gold hover:pl-1 transition-all">Campus Workshops</Link></li>
+              <li><Link to="/contact" className="hover:text-gold hover:pl-1 transition-all">Request a Demo</Link></li>
             </ul>
           </div>
-
+ 
           {/* Column 4: Quick Links */}
           <div>
             <h3 className="text-xs font-semibold text-white tracking-wider uppercase mb-6">Quick Links</h3>
             <ul className="space-y-3.5 text-sm font-light">
               <li><a href="#reality-section" className="hover:text-gold hover:pl-1 transition-all">About Ace It Up</a></li>
               <li><a href="#journey-section" className="hover:text-gold hover:pl-1 transition-all">How It Works</a></li>
-              <li><a href="#outcomes-section" className="hover:text-gold hover:pl-1 transition-all">Testimonials</a></li>
               <li><a href="#pricing-section" className="hover:text-gold hover:pl-1 transition-all">Pricing</a></li>
               <li><Link to="/contact" className="hover:text-gold hover:pl-1 transition-all">Contact Us</Link></li>
-              <li><a href="#enroll" className="hover:text-gold hover:pl-1 transition-all">Enrol Now</a></li>
             </ul>
           </div>
 
