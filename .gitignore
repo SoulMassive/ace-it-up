@@ -6,6 +6,8 @@ node_modules/
 dist/
 build/
 client/dist/
+/public/
+.vercel/
 
 # Local env files
 .env
