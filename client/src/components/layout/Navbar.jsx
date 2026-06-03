@@ -105,7 +105,7 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full flex justify-between items-center">
           
-          {/* Logo */}
+           {/* Logo */}
           <div className="flex-shrink-0">
             <Link 
               to="/" 
@@ -113,9 +113,18 @@ const Navbar = () => {
                 e.preventDefault();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="flex items-center space-x-2 text-2xl font-bold tracking-[3px] text-white font-serif uppercase"
+              className="flex items-center space-x-3"
             >
-              ACE IT <span className="text-gold italic font-medium">UP</span>
+              <svg className="w-10 h-10 flex-shrink-0" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 12,78 Q 30,30 71,8" fill="none" stroke="#DAB57F" strokeWidth="3.5" strokeDasharray="0 7" strokeLinecap="round" />
+                <rect x="20" y="55" width="14" height="35" rx="7" fill="#EAD4B3" />
+                <rect x="42" y="35" width="14" height="55" rx="7" fill="#DFBF8F" />
+                <path d="M 64,22 L 71,8 L 78,22 L 78,83 A 7,7 0 0,1 64,83 Z" fill="#DAB57F" />
+              </svg>
+              <div className="flex flex-col text-left leading-none">
+                <span className="text-xl font-bold tracking-[2px] text-gold font-serif uppercase">ACE</span>
+                <span className="text-[10px] font-semibold tracking-[3px] text-white/70 uppercase mt-0.5">IT UP</span>
+              </div>
             </Link>
           </div>
 
